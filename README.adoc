@@ -5,7 +5,14 @@ Start the application with:
 
     gradle bootRun
 
-=== Links
+=== Links after starting
+
 * http://localhost:8083/v3/api-docs (api docs in json format)
 * http://localhost:8083/v3/api-docs.yaml (api docs in yaml format)
 * http://localhost:8083/swagger-ui.html (api docs in yaml format)
+
+=== Issue
+
+The Schema of SampleApi -> getSamplePaged -> ApiResponses -> ApiResponse -> Content -> Schema -> SchemaProperties "item" is ignored
+
+There should be a ref to `"$ref": "#/components/schemas/PagedObject"`
