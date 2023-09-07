@@ -1,0 +1,11 @@
+Sample repository to demonstrate a bug in openApi generation in version
+"org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0"
+
+Start the application with:
+
+    gradle bootRun
+
+=== Links
+* http://localhost:8083/v3/api-docs (api docs in json format)
+* http://localhost:8083/v3/api-docs.yaml (api docs in yaml format)
+* http://localhost:8083/swagger-ui.html (api docs in yaml format)
